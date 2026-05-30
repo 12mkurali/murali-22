@@ -232,7 +232,7 @@
     .uiux-card:hover .uiux-card-num { color:var(--gold); }
     .uiux-thumb {
       width: 100%;
-      /* removed fixed aspect ratio for full image view */
+      height: auto;
       overflow: hidden;
       background: var(--bg2);
       position: relative;
@@ -416,8 +416,23 @@
       nav { padding:14px 20px; }
       .dev-card { padding:28px 24px; }
       .uiux-grid { grid-template-columns:1fr; }
-    }
 
     /* ── SCROLL FADE-IN ── */
     .reveal { opacity:0; transform:translateY(24px); transition:opacity .65s cubic-bezier(.2,.9,.4,1), transform .65s cubic-bezier(.2,.9,.4,1); }
     .reveal.visible { opacity:1; transform:none; }
+
+/* ── RESPONSIVE ADDITIONS ── */
+@media (max-width: 900px) {
+  .uiux-thumb img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 480px) {
+  .uiux-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

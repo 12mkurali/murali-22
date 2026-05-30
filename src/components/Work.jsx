@@ -105,7 +105,7 @@ export default function Work() {
             <p style={{ fontSize: '12px', color: 'var(--muted)', maxWidth: '520px', lineHeight: 1.65 }}>A collection of creative posters and graphic design work.</p>
           </div>
 
-          <div className="uiux-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
+          <div className="uiux-grid">
             {/* Poster 1 */}
             <div className="uiux-card reveal">
               <div className="uiux-thumb">
@@ -194,6 +194,7 @@ export default function Work() {
               </div>
             </div>
           </div>
+
 
           <div className="dev-card reveal">
             <div>
