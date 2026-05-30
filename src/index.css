@@ -231,9 +231,14 @@
     .uiux-card:hover .uiux-thumb-overlay { opacity:1; }
     .uiux-card:hover .uiux-card-num { color:var(--gold); }
     .uiux-thumb {
-      width:100%; aspect-ratio:16/9; overflow:hidden;
-      background:var(--bg2); position:relative;
-      display:flex; align-items:center; justify-content:center;
+      width: 100%;
+      /* removed fixed aspect ratio for full image view */
+      overflow: hidden;
+      background: var(--bg2);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .uiux-thumb iframe {
       width:200%; height:200%;
