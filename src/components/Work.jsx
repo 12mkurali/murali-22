@@ -2,6 +2,21 @@ import Img1 from "../assets/1.jpg";
 import Img2 from "../assets/2.jpg";
 import Img3 from "../assets/3.jpg";
 import Img4 from "../assets/4.jpg";
+import Img5 from "../assets/5.jpg";
+import Img6 from "../assets/6.jpg";
+import Img7 from "../assets/7.jpg";
+import Img8 from "../assets/8.jpg";
+
+
+
+
+
+
+
+
+
+
+
 
 export default function Work() {
   return (
@@ -190,6 +205,107 @@ export default function Work() {
                 <a className="uiux-card-link" href={Img4} target="_blank" rel="noreferrer">
                   View High Res
                   <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /><polyline points="15 3 21 3 21 9" /><line x1="10" y1="14" x2="21" y2="3" /></svg>
+                </a>
+              </div>
+            </div>
+
+            {/* Poster 5 */}
+            <div className="uiux-card reveal">
+              <div className="uiux-thumb">
+                <img src={Img5} alt="Poster 5" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+                <div className="uiux-thumb-overlay"><span>View Poster ↗</span></div>
+                <a href={Img5} target="_blank" rel="noreferrer" style={{ position: 'absolute', inset: 0, zIndex: 2 }}></a>
+              </div>
+              <div className="uiux-body">
+                <p className="uiux-card-num">Graphic Design · Poster</p>
+                <h3 className="uiux-card-title">Neon Cityscape</h3>
+                <p className="uiux-card-desc">A vibrant poster blending neon gradients and futuristic typography.</p>
+                <div className="uiux-card-tags">
+                  <span className="uiux-card-tag">Photoshop</span>
+                  <span className="uiux-card-tag">Illustrator</span>
+                </div>
+                <a className="uiux-card-link" href={Img5} target="_blank" rel="noreferrer">
+                  View High Res
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            {/* Poster 6 */}
+            <div className="uiux-card reveal">
+              <div className="uiux-thumb">
+                <img src={Img6} alt="Poster 6" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+                <div className="uiux-thumb-overlay"><span>View Poster ↗</span></div>
+                <a href={Img6} target="_blank" rel="noreferrer" style={{ position: 'absolute', inset: 0, zIndex: 2 }}></a>
+              </div>
+              <div className="uiux-body">
+                <p className="uiux-card-num">Graphic Design · Poster</p>
+                <h3 className="uiux-card-title">Abstract Waves</h3>
+                <p className="uiux-card-desc">Dynamic waveforms with layered textures and bold color blocks.</p>
+                <div className="uiux-card-tags">
+                  <span className="uiux-card-tag">Illustrator</span>
+                  <span className="uiux-card-tag">Design</span>
+                </div>
+                <a className="uiux-card-link" href={Img6} target="_blank" rel="noreferrer">
+                  View High Res
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 13v6a2 0 01-2 2H5a2 0 01-2-2V8a2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            {/* Poster 7 */}
+            <div className="uiux-card reveal">
+              <div className="uiux-thumb">
+                <img src={Img7} alt="Poster 7" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+                <div className="uiux-thumb-overlay"><span>View Poster ↗</span></div>
+                <a href={Img7} target="_blank" rel="noreferrer" style={{ position: 'absolute', inset: 0, zIndex: 2 }}></a>
+              </div>
+              <div className="uiux-body">
+                <p className="uiux-card-num">Graphic Design · Poster</p>
+                <h3 className="uiux-card-title">Retro Futurism</h3>
+                <p className="uiux-card-desc">A nostalgic take on future tech with pastel palettes and grid patterns.</p>
+                <div className="uiux-card-tags">
+                  <span className="uiux-card-tag">Photoshop</span>
+                  <span className="uiux-card-tag">Retro</span>
+                </div>
+                <a className="uiux-card-link" href={Img7} target="_blank" rel="noreferrer">
+                  View High Res
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 13v6a2 0 01-2 2H5a2 0 01-2-2V8a2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            {/* Poster 8 */}
+            <div className="uiux-card reveal">
+              <div className="uiux-thumb">
+                <img src={Img8} alt="Poster 8" style={{ width: '100%', height: 'auto', objectFit: 'contain' }} />
+                <div className="uiux-thumb-overlay"><span>View Poster ↗</span></div>
+                <a href={Img8} target="_blank" rel="noreferrer" style={{ position: 'absolute', inset: 0, zIndex: 2 }}></a>
+              </div>
+              <div className="uiux-body">
+                <p className="uiux-card-num">Graphic Design · Poster</p>
+                <h3 className="uiux-card-title">Minimalist Zen</h3>
+                <p className="uiux-card-desc">Clean lines and serene color scheme for a calm visual experience.</p>
+                <div className="uiux-card-tags">
+                  <span className="uiux-card-tag">Illustrator</span>
+                  <span className="uiux-card-tag">Minimalism</span>
+                </div>
+                <a className="uiux-card-link" href={Img8} target="_blank" rel="noreferrer">
+                  View High Res
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 13v6a2 0 01-2 2H5a2 0 01-2-2V8a2 0 012-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
                 </a>
               </div>
             </div>
